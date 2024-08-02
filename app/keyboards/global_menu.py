@@ -8,5 +8,7 @@ def build_global_menu():
     builder.button(text="Список вилікуваних тварин")
     builder.button(text="Написати відгук")
     builder.button(text="Показати відгуки")
+    builder.button(text="Список працівників")
+    builder.button(text="Додати нового працівника")
     builder.adjust(1)
     return builder.as_markup()
