@@ -32,7 +32,7 @@ async def add_review(message: Message, state: FSMContext):
     await state.set_state(ReviewForm.text)
     await edit_or_answer(
         message = message,
-        text = "Введіть свій відгук"
+        text = "Введіть свій відгук..."
     )
 
 

@@ -77,7 +77,7 @@ async def add_animal(message: Message, state: FSMContext):
     await state.set_state(AnimalForm.name)
     await edit_or_answer(
         message=message,
-        text="Введіть ім'я тварини"
+        text="Введіть ім'я тварини..."
         )
     
 
